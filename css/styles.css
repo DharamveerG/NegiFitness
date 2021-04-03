@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-
+*{
+  margin:0;
+  box-sizing: border-box;
+  padding: 0;
+}
 body {
  
     text-align: center;
@@ -180,13 +184,123 @@ body {
   }
 
   
+
+  /* footer */
+
+  .site-footer {
+    background-color: #53354a;
+    text-align: center;
+    /* margin: 10px 0; */
+    padding: 10px 0;
+  }
+  
+  #social-wrapper {
+    text-align: center;
+  }
+  
+  /*Social Media Icons*/
+  .social-wrapper {
+    text-align: center;
+  }
+  
+  .social-wrapper ul li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  .twitter-icon,
+  .facebook-icon,
+  .instagram-icon,
+  .linkedin-icon,
+  .googleplus-icon,
+  .youtube-icon,
+  .foursquare-icon{
+    margin-top: .625em;
+    width: 40px;
+    height: 40px;
+    opacity: .6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 25px;
+  }
+  
+  .twitter-icon:hover,
+  .facebook-icon:hover,
+  .instagram-icon:hover,
+  .linkedin-icon:hover,
+  .googleplus-icon:hover,
+  .youtube-icon:hover,
+  .foursquare-icon:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+  
+  .footer-nav p {
+    text-align: center;
+  }
+
+
+  
   @media only screen and (max-width: 700px)  {
     
-    
+    .humburger{
+      float: right;
+    }
     .navbartext{
      
       font-size: 20px;
       
     }
+    
+    #title .container-fluid {
+      padding: 10px;
+      width: 100%;
+      overflow: hidden;
+    }
+    .mainnavbar{
+      width: 100%;
+      padding: 0;
+    }
+    .navbarcontainer{
+      height: 30rem;
+    }
+   
+    .navbarcontaineritems{
+      padding: 10px;
+      width: 100%;
+    }
+    .bodybullder{
+      padding: 0;
+      width: 100%;
+      overflow: hidden;
+      position: unset;
+      display: flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      height: 20rem;
+
+    }
+  
+    .title-image {
+    
+      /* transform: rotate(25deg); */
+      position: unset;
+      right: unset;
+      top:unset;
+      transform: unset;
+      height:258px; 
+      width:auto;
+      
+    }
+    .title-image2{
+     
+      position: unset;
+     left: unset;
+      top:unset;
+      transform:unset;
+      height:auto; 
+      width:125px;
+    }
   }
+  
+  /* New footer */
   
